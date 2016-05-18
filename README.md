@@ -1,4 +1,4 @@
-MagicServer v1.0.0 for ImagicalMine
+MagicServer v1.0.1 for ImagicalMine
 ===================================
 Make your server full of magic!
 
