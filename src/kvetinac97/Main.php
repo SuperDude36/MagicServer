@@ -141,19 +141,19 @@ class Main extends PluginBase implements Listener {
                     switch ($e->getBlock()->getId()){
                         case 16:
                             $drop = \mt_rand(3, 3+$lvl);
-                            $e->setDrops([Item::get(16, 0, $drop)]);
+                            $e->setDrops([Item::get(263, 0, $drop)]);
                             break;
                         case 21:
                             $drop = \mt_rand(5, 5+$lvl);
-                            $e->setDrops([Item::get(21, 0, $drop)]);
+                            $e->setDrops([Item::get(351, 4, $drop)]);
                             break;
                         case 56:
                             $drop = \mt_rand(1, 1+$lvl);
-                            $e->setDrops([Item::get(56, 0, $drop)]);
+                            $e->setDrops([Item::get(264, 0, $drop)]);
                             break;
                         case 73:
                             $drop = \mt_rand(5, 5+$lvl);
-                            $e->setDrops([Item::get(73, 0, $drop)]);
+                            $e->setDrops([Item::get(331, 0, $drop)]);
                             break;
                         case 89:
                             $e->setDrops([Item::get(16, 0, 4)]);
@@ -164,7 +164,7 @@ class Main extends PluginBase implements Listener {
                             break;
                         case 153:
                             $drop = \mt_rand(2, 2+$lvl);
-                            $e->setDrops([Item::get(153, 0, $drop)]);
+                            $e->setDrops([Item::get(406, 0, $drop)]);
                             break;
                     }
                     break;
