@@ -1,4 +1,4 @@
-MagicServer v1.0.1 for ImagicalMine
+MagicServer v1.0.1 for Nukkit
 ===================================
 Make your server full of magic!
 
