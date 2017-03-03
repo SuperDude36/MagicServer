@@ -166,6 +166,14 @@ class Main extends PluginBase implements Listener {
                             $drop = \mt_rand(2, 2+$lvl);
                             $e->setDrops([Item::get(406, 0, $drop)]);
                             break;
+                        case 133:
+                            $drop = \mt_rand(2, 2+$lvl);
+                            $e->setDrops([Item::get(133, 0, $drop)]);
+                            break;
+                        case 57:
+                            $drop = \mt_rand(2, 2+$lvl);
+                            $e->setDrops([Item::get(57, 0, $drop)]);
+                            break;
                     }
                     break;
             }
